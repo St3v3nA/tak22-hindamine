@@ -1,7 +1,13 @@
-#kontainer {
-    display: block;
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .cat {
-    border: 1px slateblue dotted;
+    padding: 20px
+}
+
+.breed {
+    font-weight: 700;
+    font-size: 24px;
 }
